@@ -403,6 +403,16 @@ footer {
   text-align: right;
 }
 
+.app-info-value a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.app-info-value a:hover {
+  color: var(--gold);
+}
+
 @media (max-width: 480px) {
   .app-info-row {
     grid-template-columns: 1fr;
